@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using SymbolSource.Gateway.Core;
-using SymbolSource.Gateway.NuGet.Core;
-using SymbolSource.Gateway.OpenWrap.Core;
 using SymbolSource.Processing.Basic.Projects;
 using SymbolSource.Server.Management.Client;
 
