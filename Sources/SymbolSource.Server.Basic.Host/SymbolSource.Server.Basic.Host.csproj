@@ -111,12 +111,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Readme\glimpse.elmah.readme.txt" />
-    <Content Include="App_Readme\glimpse.log4net.readme.txt" />
-    <Content Include="App_Readme\glimpse.mvc3.readme.txt" />
-    <Content Include="App_Readme\glimpse.readme.txt" />
+    <None Include="App_Readme\glimpse.elmah.readme.txt" />
+    <None Include="App_Readme\glimpse.log4net.readme.txt" />
+    <None Include="App_Readme\glimpse.mvc3.readme.txt" />
+    <None Include="App_Readme\glimpse.readme.txt" />
     <Content Include="Views\Home\Diagnostics.cshtml" />
-    <None Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="favicon.png" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
@@ -139,9 +139,9 @@
     <Folder Include="App_Data\Elmah.Errors\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config">
+    <None Include="packages.config">
       <SubType>Designer</SubType>
-    </Content>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Web.config" />
@@ -150,7 +150,7 @@
     <Content Include="Index\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Views\Web.config" />
+    <Content Include="Views\Web.config" />
     <None Include="Web.config.transform" />
   </ItemGroup>
   <ItemGroup>
