@@ -49,7 +49,8 @@ namespace SymbolSource.Gateway.NuGet.Core
 
         public static Version ConvertToVersion(Stream stream)
         {
-            var package = new ZipPackage(stream);           
+            var package = new ZipPackage(stream);
+            stream = package.GetStream();
 
             var version = new Version
                               {
