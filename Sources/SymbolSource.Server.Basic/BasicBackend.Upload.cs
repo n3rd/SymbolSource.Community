@@ -5,7 +5,7 @@ using System.Linq;
 using Ionic.Zip;
 using SymbolSource.Processing.Basic;
 using SymbolSource.Processing.Basic.Projects;
-using SymbolSource.Server.Management.Client;
+using SymbolSource.Server.Management.Client.WebService;
 using File = Delimon.Win32.IO.File;
 using Directory = Delimon.Win32.IO.Directory;
 

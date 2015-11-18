@@ -3,7 +3,7 @@
 namespace SymbolSource.Server.Management.Client
 {
     [WebServiceBinding(Name = "WebServiceSoap", Namespace = "http://api.symbolsource.org/schemas/webServices")]
-    public class ConfigurableWebService : WebService
+    public class ConfigurableWebService : WebService.WebService
     {
         public ConfigurableWebService(IWebServiceManagementConfiguration configuration)
         {

@@ -5,13 +5,14 @@ using Ionic.Zip;
 using log4net;
 using NuGet;
 using SymbolSource.Gateway.Core;
-using SymbolSource.Server.Management.Client;
 using ContentType = SymbolSource.Gateway.Core.ContentType;
-using MetadataEntry = SymbolSource.Server.Management.Client.MetadataEntry;
-using PackageCompilation = SymbolSource.Server.Management.Client.PackageCompilation;
-using PackageImageFile = SymbolSource.Server.Management.Client.PackageImageFile;
-using PackageProject = SymbolSource.Server.Management.Client.PackageProject;
-using PackageVersion = SymbolSource.Server.Management.Client.PackageVersion;
+using MetadataEntry = SymbolSource.Server.Management.Client.WebService.MetadataEntry;
+using PackageCompilation = SymbolSource.Server.Management.Client.WebService.PackageCompilation;
+using PackageImageFile = SymbolSource.Server.Management.Client.WebService.PackageImageFile;
+using PackageProject = SymbolSource.Server.Management.Client.WebService.PackageProject;
+using PackageVersion = SymbolSource.Server.Management.Client.WebService.PackageVersion;
+using Version = SymbolSource.Server.Management.Client.WebService.Version;
+using Caller = SymbolSource.Server.Management.Client.WebService.Caller;
 
 namespace SymbolSource.Gateway.NuGet.Core
 {

@@ -6,7 +6,8 @@ using System.Runtime.Versioning;
 using System.Security.Cryptography;
 using NuGet;
 using SymbolSource.Server.Management.Client;
-using Version = SymbolSource.Server.Management.Client.Version;
+using SymbolSource.Server.Management.Client.WebService;
+using Version = SymbolSource.Server.Management.Client.WebService.Version;
 
 namespace SymbolSource.Gateway.NuGet.Core
 {

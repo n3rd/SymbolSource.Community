@@ -2,6 +2,7 @@ using System;
 using System.Web.Mvc;
 using SymbolSource.Gateway.Core;
 using SymbolSource.Server.Management.Client;
+using SymbolSource.Server.Management.Client.WebService;
 
 namespace SymbolSource.Gateway.WinDbg.Core
 {

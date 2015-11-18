@@ -1,5 +1,5 @@
 ﻿using System.IO;
-using SymbolSource.Server.Management.Client;
+using Version = SymbolSource.Server.Management.Client.WebService.Version;
 
 namespace SymbolSource.Gateway.Core
 {

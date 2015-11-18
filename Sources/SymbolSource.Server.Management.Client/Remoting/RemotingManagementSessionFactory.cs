@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using SymbolSource.Server.Management.Client.WebService;
 
 namespace SymbolSource.Server.Management.Client.Remoting
 {

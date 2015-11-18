@@ -1,10 +1,12 @@
 ﻿using System;
+using SymbolSource.Server.Management.Client.WebService;
+using Version = SymbolSource.Server.Management.Client.WebService.Version;
 
 namespace SymbolSource.Server.Management.Client
 {
     public class WebServiceManagementSession : IManagementSession
     {
-        private readonly WebService service;
+        private readonly WebService.WebService service;
         private readonly Caller caller;
         private User user;
 

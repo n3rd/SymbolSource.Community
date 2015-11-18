@@ -8,7 +8,8 @@ using Ionic.Zip;
 using log4net;
 using SymbolSource.Server.Management.Client;
 using PackageModel = SymbolSource;
-using Version = SymbolSource.Server.Management.Client.Version;
+using Version = SymbolSource.Server.Management.Client.WebService.Version;
+using SymbolSource.Server.Management.Client.WebService;
 
 namespace SymbolSource.Gateway.Core
 {

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using SymbolSource.Server.Management.Client.WebService;
 
 namespace SymbolSource.Server.Management.Client
 {

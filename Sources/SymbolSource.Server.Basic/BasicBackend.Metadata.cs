@@ -4,7 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using SymbolSource.Server.Management.Client;
-using Version = SymbolSource.Server.Management.Client.Version;
+using SymbolSource.Server.Management.Client.WebService;
+using Version = SymbolSource.Server.Management.Client.WebService.Version;
 
 namespace SymbolSource.Server.Basic
 {

@@ -1,11 +1,12 @@
 ﻿using System;
+using SymbolSource.Server.Management.Client.WebService;
 
 namespace SymbolSource.Server.Management.Client
 {
     public class WebServiceManagementSessionFactory : IManagementSessionFactory
     {
         protected readonly IWebServiceManagementConfiguration configuration;
-        protected readonly WebService service;
+        protected readonly WebService.WebService service;
 
         public WebServiceManagementSessionFactory(IWebServiceManagementConfiguration configuration)
         {

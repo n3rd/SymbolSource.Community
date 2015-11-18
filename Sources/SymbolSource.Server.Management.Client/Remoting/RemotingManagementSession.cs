@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Reflection;
+using SymbolSource.Server.Management.Client.WebService;
+using Version = SymbolSource.Server.Management.Client.WebService.Version;
 
 namespace SymbolSource.Server.Management.Client.Remoting
 {

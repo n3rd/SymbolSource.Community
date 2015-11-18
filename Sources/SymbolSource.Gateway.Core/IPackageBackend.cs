@@ -1,4 +1,5 @@
-﻿using SymbolSource.Server.Management.Client;
+﻿using SymbolSource.Server.Management.Client.WebService;
+using Version = SymbolSource.Server.Management.Client.WebService.Version;
 
 namespace SymbolSource.Gateway.Core
 {

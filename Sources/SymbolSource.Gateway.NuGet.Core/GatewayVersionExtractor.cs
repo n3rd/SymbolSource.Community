@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using NuGet;
 using SymbolSource.Gateway.Core;
-using SymbolSource.Server.Management.Client;
+using Version = SymbolSource.Server.Management.Client.WebService.Version;
 
 namespace SymbolSource.Gateway.NuGet.Core
 {
