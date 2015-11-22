@@ -7,6 +7,9 @@ The Gateway and Server.Basic projects hold the implementation of a symbol and so
 
 ### Installing
 
+* Install [Debugging Tools for Windows](https://msdn.microsoft.com/en-us/windows/hardware/hh852365) and note the installation path.
+* Fix &lt;appSettings&gt; in Web.config to point to your installation of Debugging Tools for Windows.
+
 You can read more about Server.Basic in these blog posts, which also include instructions on how to set it up:
  
  * [Setting up your own SymbolSource Server: step-by-ste](http://xavierdecoster.azurewebsites.net/setting-up-your-own-symbolsource-server-step-by-step) by [Xavier Decoster](http://twitter.com/xavierdecoster),

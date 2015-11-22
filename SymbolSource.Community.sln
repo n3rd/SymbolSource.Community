@@ -5,6 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{744C48E9-BDEF-47EB-8AF8-19D07C14838C}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 		SymbolSource.Integration.NuGet.CommandLine.nuspec = SymbolSource.Integration.NuGet.CommandLine.nuspec
 		SymbolSource.Integration.NuGet.PackageExplorer.nuspec = SymbolSource.Integration.NuGet.PackageExplorer.nuspec
 		SymbolSource.Server.Basic.nuspec = SymbolSource.Server.Basic.nuspec
