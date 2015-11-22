@@ -153,12 +153,10 @@ namespace SymbolSource.Gateway.WinDbg.Core
         {
             try
             {
-                var request = WebRequest.Create(link);
-                using (var response = request.GetResponse())
-                using (var responseStream = response.GetResponseStream())
+                using(var fs = Delimon.Win32.IO.File.OpenRead(link))
                 using (var outputStream = System.IO.File.OpenWrite(destination))
                 {
-                    responseStream.CopyTo(outputStream);
+                    fs.CopyTo(outputStream);
 
                     if (outputStream.Length < 1000)
                         throw new WebException(string.Format("File is too small ({0} length)", outputStream.Length));
