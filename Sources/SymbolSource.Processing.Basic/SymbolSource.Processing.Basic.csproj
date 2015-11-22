@@ -51,39 +51,39 @@
     </Reference>
     <Reference Include="Microsoft.Cci.ILGenerator, Version=1.0.65055.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SymbolSource.Microsoft.Cci.Metadata.1.0.65055.0\lib\Microsoft.Cci.ILGenerator.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Cci.Metadata\Microsoft.Cci.ILGenerator.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Cci.MetadataHelper, Version=1.0.65055.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SymbolSource.Microsoft.Cci.Metadata.1.0.65055.0\lib\Microsoft.Cci.MetadataHelper.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Cci.Metadata\Microsoft.Cci.MetadataHelper.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Cci.MetadataModel, Version=1.0.65055.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SymbolSource.Microsoft.Cci.Metadata.1.0.65055.0\lib\Microsoft.Cci.MetadataModel.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Cci.Metadata\Microsoft.Cci.MetadataModel.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Cci.MutableMetadataModel, Version=1.0.65055.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SymbolSource.Microsoft.Cci.Metadata.1.0.65055.0\lib\Microsoft.Cci.MutableMetadataModel.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Cci.Metadata\Microsoft.Cci.MutableMetadataModel.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Cci.PdbReader, Version=1.0.65055.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SymbolSource.Microsoft.Cci.Metadata.1.0.65055.0\lib\Microsoft.Cci.PdbReader.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Cci.Metadata\Microsoft.Cci.PdbReader.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Cci.PdbWriter, Version=1.0.65055.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SymbolSource.Microsoft.Cci.Metadata.1.0.65055.0\lib\Microsoft.Cci.PdbWriter.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Cci.Metadata\Microsoft.Cci.PdbWriter.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Cci.PeReader, Version=1.0.65055.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SymbolSource.Microsoft.Cci.Metadata.1.0.65055.0\lib\Microsoft.Cci.PeReader.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Cci.Metadata\Microsoft.Cci.PeReader.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Cci.PeWriter, Version=1.0.65055.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SymbolSource.Microsoft.Cci.Metadata.1.0.65055.0\lib\Microsoft.Cci.PeWriter.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Cci.Metadata\Microsoft.Cci.PeWriter.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Cci.SourceModel, Version=1.0.65055.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SymbolSource.Microsoft.Cci.Metadata.1.0.65055.0\lib\Microsoft.Cci.SourceModel.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Cci.Metadata\Microsoft.Cci.SourceModel.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil, Version=0.9.5.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
